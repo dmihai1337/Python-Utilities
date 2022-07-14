@@ -4,10 +4,10 @@ from gtts import gTTS
 import os
 
 # The text you want to convert to audio
-mytext = "Pizda mă-tii"
+mytext = "Hello World"
 
 # Language
-language = 'ro'
+language = 'en'
 
 # Passing the text and language to the engine,  
 # here we have marked slow=False. Which tells  
@@ -16,4 +16,4 @@ language = 'ro'
 file = gTTS(text = mytext, lang = language, slow = False)
 
 # Saving the audio file
-file.save("salut.mp3")
+file.save("file.mp3")
